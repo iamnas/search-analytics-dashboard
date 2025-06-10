@@ -2,7 +2,7 @@
 
 A comprehensive React + TypeScript dashboard for monitoring and analyzing search performance metrics. Built with GraphQL integration, interactive charts, and a beautiful, responsive UI.
 
-![Search Analytics Dashboard](https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&h=400&q=80)
+![Search Analytics Dashboard](./public/demo.png)
 
 ## 🚀 Features
 
