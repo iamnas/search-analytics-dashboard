@@ -43,7 +43,10 @@ describe('MetricTable', () => {
   it('renders table with correct data', () => {
     render(<MetricTable {...defaultProps} />);
     
+    console.log(screen.getByText('1,000'));
+    
     expect(screen.getByText('react tutorial')).toBeInTheDocument();
+    expect(Element).toHaveClass('bg-blue-50');
     expect(screen.getByText('javascript guide')).toBeInTheDocument();
     expect(screen.getByText('1,000')).toBeInTheDocument();
     expect(screen.getByText('10.0%')).toBeInTheDocument();

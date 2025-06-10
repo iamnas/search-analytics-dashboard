@@ -3,6 +3,7 @@ import { MockedProvider } from '@apollo/client/testing';
 import { useSearchAnalytics } from '../../hooks/useSearchAnalytics';
 import { GET_SEARCH_ANALYTICS } from '../../graphql/queries';
 import { mockData } from '../../mocks/mockData';
+import { expect } from 'vitest';
 
 const mocks = [
   {
