@@ -91,7 +91,7 @@ src/
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/iamnas/search-analytics-dashboard.git
 cd search-analytics-dashboard
 ```
 
